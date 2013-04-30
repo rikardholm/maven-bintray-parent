@@ -11,7 +11,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <bintray.url>https://api.bintray.com/maven/rikardholm/cq-development/development-package</bintray.url>
+        <bintray.url>https://api.bintray.com/maven/rikardholm/Maven/maven-bintray-parent</bintray.url>
     </properties>
 
     <build>
