@@ -3,7 +3,7 @@
 
     <groupId>maven-bintray-parent</groupId>
     <artifactId>maven-bintray-parent</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>maven-bintray-parent</name>
@@ -44,7 +44,7 @@
         <connection>scm:git:git@github.com:rikardholm/maven-bintray-parent.git</connection>
         <url>scm:git:git@github.com:rikardholm/maven-bintray-parent.git</url>
         <developerConnection>scm:git:git@github.com:rikardholm/maven-bintray-parent.git</developerConnection>
-        <tag>maven-bintray-parent-1.0.0</tag>
+        <tag>HEAD</tag>
     </scm>
     <distributionManagement>
         <repository>
