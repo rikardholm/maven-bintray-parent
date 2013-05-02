@@ -10,4 +10,34 @@
             <password>bintray API-key</password>
         </server>
     </servers>
+
+    <!-- Using bintray repository for downloading -->
+    <profiles>
+        <profile>
+            <repositories>
+                <repository>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                    <id>central</id>
+                    <name>bintray</name>
+                    <url>http://dl.bintray.com/content/rikardholm/Maven</url>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                    <id>central</id>
+                    <name>bintray-plugins</name>
+                    <url>http://dl.bintray.com/content/rikardholm/Maven</url>
+                </pluginRepository>
+            </pluginRepositories>
+            <id>bintray</id>
+        </profile>
+    </profiles>
+    <activeProfiles>
+        <activeProfile>bintray</activeProfile>
+    </activeProfiles>
 </settings>
